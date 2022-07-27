@@ -115,3 +115,75 @@ body {
     background-color: rgb(115, 48, 170);
 }
 
+.perdiste {
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    transition: 1s ease all;
+    top: 50%;
+    color: red;
+    font-size: 0rem;
+    width: 100%;
+    display: flex;
+    opacity: 1;
+}
+
+.perdiste.activo {
+    font-size: 5rem;
+    display: flex;
+    opacity: 1;
+}
+
+.ganaste {
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    transition: 1s ease all;
+    top: 50%;
+    color: white;
+    font-size: 0rem;
+    width: 100%;
+    display: flex;
+    opacity: 1;
+}
+
+.ganaste.activo{
+    font-size: 5rem;
+    display: flex;
+    opacity: 1;
+}
+
+.img-fruta {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    opacity: 0;
+    border-radius: .63rem;
+    transition: .7s ease all;        
+}
+
+.img-fruta.activo {
+    opacity: 1;    
+}
+
+.deshabilitar{
+    pointer-events: none !important;
+}
+
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;    
+    user-drag: none;
+}
+
