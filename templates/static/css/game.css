@@ -67,3 +67,51 @@ body {
     background-size: contain;
 }
 
+.btn-juego {
+    background-color: rgb(58, 148, 170);
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-juego:hover {
+    background-color: rgb(45, 127, 148);
+}
+
+.btn-juego:active {
+    background-color: rgb(34, 109, 128);
+}
+
+.btn-juego:disabled {
+    opacity: .3;
+    pointer-events: none;
+}
+
+.btn-juego.detener {
+    background-color: rgb(185, 79, 60);
+}
+
+.btn-juego.detener:hover {
+    background-color: rgb(168, 69, 52);
+}
+
+.btn-juego.detener:active {
+    background-color: rgb(150, 57, 41);
+}
+
+.btn-juego.reiniciar {
+    background-color: rgb(129, 60, 185);
+}
+
+.btn-juego.reiniciar:hover {
+    background-color: rgb(115, 48, 170);
+}
+
+.btn-juego.reiniciar:active {
+    background-color: rgb(115, 48, 170);
+}
+
