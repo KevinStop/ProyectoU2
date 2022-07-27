@@ -46,3 +46,24 @@ body {
     color: white;
 }
 
+.carta {
+    pointer-events: none;
+    opacity: .2;
+    margin: .63rem;
+    width: 7.5rem;
+    height: 10.94rem;
+    border-radius: .63rem;
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+.carta.iniciado {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.carta.abajo {
+    background: url("/static/img/Juego/reverso.png") repeat center center;
+    background-size: contain;
+}
+
