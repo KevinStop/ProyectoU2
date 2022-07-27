@@ -30,7 +30,29 @@
   </nav>
   <br>
 
-  
+  <!--Juego-->
+  <div class="encabezado">
+    <div>
+      <span style="font-family: 'Times New Roman', Times, serif;">
+        Juego de Memoria
+      </span>
+    </div>
+    <div>
+      <span style="font-family: 'Times New Roman', Times, serif;">Tiempo restante: <span id="tiempo"></span></span>
+    </div>
+    <div>
+      <button id="iniciar" class="btn-juego" style="font-family: 'Times New Roman', Times, serif;">Iniciar</button>
+      <button id="detener" disabled class="btn-juego detener"
+        style="font-family: 'Times New Roman', Times, serif;">detener</button>
+      <button id="reiniciar" disabled class="btn-juego reiniciar"
+        style="font-family: 'Times New Roman', Times, serif; size: 10px;">reiniciar</button>
+    </div>
+  </div>
+  <div class="contenido" id="tablero"></div>
+  <div id="perdiste" class="perdiste"><span>Fin del Juego Perdiste</span></div>
+  <div id="ganaste" class="ganaste"><span>Felicidades <br> GANASTE!!!</span></div>
+  <!--Fin del Juego-->
+
 </body>
 
 </html>
