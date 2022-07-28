@@ -56,10 +56,10 @@ def login():
         try:
             user = coleccionMaestro.find_one({'email':correo,'clave':contrasenia})
             if(user):
-                flash('Porfavor Llenar todos los campos', 'danger')
                 return render_template('layouts/Tabla_Alumnos.html')
             else:
-                return render_template('alert("Error")')
+                flash('Usuario no registrado', 'danger')
+                return render_template('layouts/Login_Docente.html')
         except:
             return render_template('layouts/serverError.html')
       
