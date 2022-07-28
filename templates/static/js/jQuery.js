@@ -1,16 +1,16 @@
 $(function() {
     // Initialize form validation on the registration form.
     // It has the name attribute "registration"
-    $("form[name='TablaAlumnos']").validate({
+    $("form[name='LoginDocente']").validate({
       //Reglas de validacion
       rules: {
 
-        correo: {
+        email: {
             required: true,
-            correo: true
+            email: true
         },
 
-        contrasenia: {
+        password: {
             required: true
         },
        
@@ -18,11 +18,11 @@ $(function() {
       // Mensajes especificos de error de validacion
       messages: {
 
-        correo: {
+        email: {
           required:"Por favor, introduzca una dirección de correo",
         },
 
-        contrasenia: {
+        password: {
             required: "Por favor, introduzca la contraseña",
         },
       },

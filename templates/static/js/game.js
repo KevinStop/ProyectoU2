@@ -78,7 +78,7 @@ window.onload = function () {
       });
   
       var horas = 0,
-        minutos = 1,
+        minutos = 4,
         segundos = 60;
   
       tiempo = setInterval(function () {
